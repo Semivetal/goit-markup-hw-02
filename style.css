@@ -1,0 +1,547 @@
+/* Кастомные CSS свойства (переменные) */
+/* Основной цвет текста #757575 */
+/* Цвет текста заголовков #212121 */
+/* Акцентный цвет текста #2196F3 */
+/* Цвет текста  основного заголовка #FFFFFF */
+/* Цвет основного фона #E5E5E5
+/* Цвет фона шапки #FFFFFF */
+/* Цвет фона основного заголовка #2F303A;
+/* Цвет фона команды и кнопок #F5F4FA */
+/* Цвет фона футера #2F303A */
+
+/* Здесь начало кода */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+  --general-background-color: #e5e5e5;
+  --header-background-color: #ffffff;
+  --order-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.general-style {
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+button :hover {
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+/* top line bg */
+.header-style {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  background: var(--header-background-color);
+}
+
+/* WebStudio-header */
+.logo-header {
+  position: absolute;
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-text-color);
+}
+
+.logo-black {
+  color: var(--title-text-color);
+}
+
+.navigate {
+  position: absolute;
+  text-decoration: none;
+  height: 16px;
+  top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.navigate:hover,
+:focus {
+  color: var(--accent-text-color);
+}
+
+/* Студия */
+.studio {
+  width: 49px;
+  left: 453px;
+}
+
+/* Портфолио */
+.portfolio {
+  width: 77px;
+  left: 552px;
+}
+
+/* Контакты */
+.contacts {
+  width: 68px;
+  left: 679px;
+}
+
+.site-nav .current {
+  color: var(--accent-text-color);
+}
+
+.contact-style {
+  position: absolute;
+  text-decoration: none;
+  height: 16px;
+  top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.contact-style:hover,
+:focus {
+  color: var(--accent-text-color);
+}
+
+/* info@devstudio.com */
+.mail {
+  width: 135px;
+  left: 1078px;
+}
+
+/* +38 096 111 11 11 */
+.tel {
+  width: 122px;
+  left: 1263px;
+}
+
+/*Первая секция*/
+/* Background */
+.first-section {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: var(--order-background-color);
+}
+
+/* Эффективные решения для вашего бизнеса */
+.h1-style {
+  width: 696px;
+  height: 120px;
+  margin-top: 200px;
+  margin-left: 452px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--header-background-color);
+}
+
+/* Button на первой странице */
+
+.btn-order {
+  position: absolute;
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 700px;
+  background: var(--accent-text-color);
+}
+
+/* Заказать услугу */
+.service {
+  white-space: nowrap;
+  width: 136px;
+  height: 30px;
+  margin-left: 32px;
+  margin-top: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--header-background-color);
+}
+
+/* Вторая секция */
+
+.strengths-title {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.strengths-text {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
+}
+
+/* Внимание к деталям */
+.attention {
+  left: 215px;
+  top: 774px;
+}
+
+.text-at {
+  left: 215px;
+  top: 800px;
+}
+
+/* Пунктуальность */
+.punctuality {
+  left: 515px;
+  top: 774px;
+}
+
+.text-pt {
+  left: 515px;
+  top: 800px;
+}
+
+/* Планирование */
+.planning {
+  left: 815px;
+  top: 774px;
+}
+
+.text-pl {
+  left: 815px;
+  top: 800px;
+}
+
+/* Современные технологии */
+.modern-techs {
+  left: 1115px;
+  top: 774px;
+}
+
+.text-mt {
+  left: 1115px;
+  top: 800px;
+}
+
+/* Чем мы занимаемся */
+.what-we-do-title {
+  position: absolute;
+  white-space: pre;
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* img */
+.img {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  top: 1061px;
+}
+
+.desktop {
+  left: 215px;
+}
+
+.laptop {
+  left: 615px;
+}
+
+.tablet {
+  left: 1015px;
+}
+
+/* Третья секция */
+
+.container {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background-color: var(--team-background-color);
+}
+
+.our-team {
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+  width: 264px;
+  height: 42px;
+  margin-top: 94px;
+  margin-left: 668px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+}
+
+.team-item {
+  display: inline-block;
+  cursor: pointer;
+  width: 270px;
+  height: 368px;
+  margin-top: 186px;
+  background: var(--header-background-color);
+}
+
+.igor {
+  margin-left: 215px;
+}
+
+.olga {
+  margin-left: 30px;
+}
+
+.nikolay {
+  margin-left: 30px;
+}
+
+.michail {
+  margin-left: 30px;
+}
+
+.text-link {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--title-text-color);
+}
+
+.team-link {
+  text-decoration: none;
+}
+
+.text-p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.footer-bg {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  top: 2097px;
+  background-color: var(--order-background-color);
+}
+
+.logo-footer {
+  position: absolute;
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+  margin-top: 60px;
+  margin-left: 215px;
+
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-text-color);
+}
+
+.logowhite {
+  color: var(--header-background-color);
+}
+
+.footer-style {
+  position: absolute;
+  text-decoration: none;
+  width: 231px;
+  height: 21px;
+  margin-left: 215px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.maps-ft {
+  margin-top: 111px;
+  color: var(--header-background-color);
+}
+
+.mail-ft {
+  margin-top: 120px;
+  color: var(--footer-address-color);
+}
+
+.tel-ft {
+  margin-top: 129px;
+  color: var(--footer-address-color);
+}
+
+/* Портфолио */
+/* Buttons в портфолио */
+
+.btn {
+  position: absolute;
+  font-family: inherit;
+  height: 38px;
+  top: 174px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: var(--team-background-color);
+  color: var(--title-text-color);
+}
+
+.btn:hover,
+:focus {
+  cursor: pointer;
+  background-color: var(--accent-text-color);
+  color: var(--header-background-color);
+}
+
+.all {
+  width: 73px;
+  left: 495px;
+}
+
+.sites {
+  width: 128px;
+  left: 576px;
+}
+
+.apps {
+  width: 145px;
+  left: 712px;
+}
+
+.design {
+  width: 103px;
+  left: 865px;
+}
+
+.marketing {
+  width: 130px;
+  left: 976px;
+}
+
+/* Стили  портфолио */
+
+.card-set {
+  position: absolute;
+  margin-top: 182px;
+  margin-bottom: 94px;
+  margin-left: 215px;
+}
+
+.card {
+  display: inline-block;
+  flex-wrap: wrap;
+  cursor: pointer;
+  width: 370px;
+  height: 404px;
+  list-style: none;
+  background: var(--header-background-color);
+}
+
+.item {
+  text-decoration: none;
+}
+
+.up-margins {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.central-margins {
+  margin: 30px;
+}
+
+.down-margins {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
+.work-text {
+  width: 322px;
+  height: 36px;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.work-type {
+  width: 322px;
+  height: 30px;
+  margin-top: 4px;
+  margin-left: 24px;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+}
+
+/* Footer background в портфолио */
+
+.footer-portfolio-bg {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  top: 1628px;
+  background-color: var(--order-background-color);
+}
